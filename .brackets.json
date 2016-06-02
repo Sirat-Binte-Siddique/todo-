@@ -1,0 +1,7 @@
+{
+    "jscodehints.detectedExclusions": [
+        "/home/sirat/Documents/todo/platforms/android/assets/www/lib/ionic/js/angular/angular.js",
+        "/home/sirat/Documents/todo/platforms/android/assets/www/lib/ionic/js/angular/angular-resource.min.js",
+        "/home/sirat/Documents/todo/platforms/android/assets/www/lib/ionic/js/angular-ui/angular-ui-router.min.js"
+    ]
+}
