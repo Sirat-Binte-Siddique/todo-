@@ -82,6 +82,14 @@ angular.module('todo', ['ionic'])
         task.location = "";
     };
 
+
+
+    $scope.deleteTask = function (index) {
+        $scope.task.splice(index, 1);
+    };
+
+
+
     $scope.newTask = function () {
         $scope.taskModal.show();
     };

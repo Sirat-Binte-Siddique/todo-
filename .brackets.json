@@ -7,6 +7,10 @@
         "/home/sirat/Documents/todo/platforms/android/assets/www/plugins/ionic-plugin-keyboard/www/android/keyboard.js",
         "/home/sirat/Documents/todo/platforms/android/assets/www/plugins/cordova-plugin-device/www/device.js",
         "/home/sirat/Documents/todo/platforms/android/assets/www/plugins/cordova-plugin-statusbar/www/statusbar.js",
-        "/home/sirat/Documents/todo/platforms/android/assets/www/lib/ionic/js/angular/angular.min.js"
+        "/home/sirat/Documents/todo/platforms/android/assets/www/lib/ionic/js/angular/angular.min.js",
+        "/home/sirat/Documents/todo/www/lib/ionic/js/angular-ui/angular-ui-router.js",
+        "/home/sirat/Documents/todo/platforms/android/assets/www/cordova-js-src/plugin/android/app.js",
+        "/home/sirat/Documents/todo/platforms/android/platform_www/plugins/cordova-plugin-device/www/device.js",
+        "/home/sirat/Documents/todo/platforms/android/platform_www/plugins/cordova-plugin-statusbar/www/statusbar.js"
     ]
 }

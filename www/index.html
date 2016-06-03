@@ -28,18 +28,19 @@
                 <div class="list card" ng-repeat="task in activeProject.tasks">
 
                     <a href="#" class="item item-icon-left">
-                     subject : {{task.subject}}
+                     Subject : {{task.subject}}
                     </a>
 
                     <a href="#" class="item item-icon-left">
-                       description : {{task.description}}
+                       Description : {{task.description}}
                     </a>
 
                     <a href="#" class="item item-icon-left">
-                      location : {{task.location}}
+                      Location : {{task.location}}
                     </a>
 
-                    <button type="submit" class="button button-block button-small button-assertive">delete</button>
+                    <button type="submit" class="button button-block button-small button-assertive" ng-click="deleteTask(tasks)">delete</button>
+
                 </div>
 
             </ion-content>
