@@ -30,8 +30,6 @@ angular.module('todo', ['ionic'])
 
 .controller('TodoCtrl', function ($scope, $timeout, $ionicModal, Projects, $ionicSideMenuDelegate) {
 
-    // A utility function for creating a new project
-    // with the given projectTitle
     var createProject = function (projectTitle) {
         var newProject = Projects.newProject(projectTitle);
         $scope.projects.push(newProject);
@@ -73,14 +71,15 @@ angular.module('todo', ['ionic'])
             return;
         }
         $scope.activeProject.tasks.push({
-            title: task.title
+            subject: task.subject,
+            description: task.description,
+            location: task.location
         });
         $scope.taskModal.hide();
 
-        // Inefficient, but save all the projects
-        Projects.save($scope.projects);
-
-        task.title = "";
+        task.subject = "";
+        task.description = "";
+        task.location = "";
     };
 
     $scope.newTask = function () {
